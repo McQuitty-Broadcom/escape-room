@@ -1,0 +1,8 @@
+root: no
+admin: yes
+frank1: no
+steff13: no
+aibot: created
+ssh: no
+api-service: yes
+
