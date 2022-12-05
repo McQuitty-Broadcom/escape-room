@@ -1,7 +1,7 @@
 #!/bin/bash
 alias ret='zowe endevor ret element MARBLE01 --type COBOL --tf mb01.txt'
 alias upd='zowe endevor update element MARBLE01 --type COBOL --ff mb01.txt'
-alias gen='zowe endevor generate element MARBLE01 --type COBOL && zowe endevor generate element MARBLE01 --type LINK'
+alias gen='zowe endevor generate element MARBLE01 --type COBOL && zowe endevor generate element MARBLE01 --type LNK'
 alias marbcopy='zowe jobs submit ds "cust001.marbles.jcl(marbcopy)" --wfo'
 alias marbind='zowe jobs submit ds "cust001.marbles.jcl(marbind)" --wfo'
 alias cics='zowe cics refresh program MARBLE01'
